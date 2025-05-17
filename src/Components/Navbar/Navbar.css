@@ -70,24 +70,24 @@
         position: fixed;
         right: 30px;
     }
-    /* .nav-mob-close{
+    .nav-mob-close{
         display: block;
         position: relative;
         top: 30px;
         left: 290px;
         width: 30px;
-    } */
-     .nav-mob-close {
+    }
+     /* .nav-mob-close {
     display: block;
-    position: fixed;      /* Change to fixed for better positioning */
-    top: 20px;           /* Near top */
-    right: 20px;         /* Near right edge */
+    position: fixed;      
+    top: 20px;          
+    right: 20px;        
     width: 30px;
-    height: 30px;        /* Ensure height */
+    height: 30px;        
     cursor: pointer;
-    z-index: 9999;       /* Make sure it stays on top */
-    left: auto;          /* Reset left offset */
-  }
+    z-index: 9999;       
+    left: auto;          
+  } */
     .nav-menu{
         position: fixed;
         flex-direction: column;
@@ -97,8 +97,8 @@
         background-color: #1F0016;
         width: 350px;
         height: 100%;
-        /* z-index: 2; */
-        z-index: 998;
+        z-index: 2;
+        /* z-index: 998; */
         transition: right 0.5s;
         right: -350px;
     }
