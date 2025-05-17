@@ -114,8 +114,7 @@
     .navbar{
         margin: 20px 20px;
     }
-    .nav-mob-close {
-     display: block; 
+    /* .nav-mob-close {
     top: 15px;
     right: 15px;
     width: 28px;
@@ -123,7 +122,7 @@
     cursor: pointer;
     z-index: 9999;
     left: auto;
-  }
+  } */
     .nav-menu{
         width: 100%;
         padding: 60px 20px;
