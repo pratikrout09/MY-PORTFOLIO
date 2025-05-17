@@ -104,27 +104,32 @@
     } 
 }
 
-
-@media (max-width: 480px) {
-    .skill {
-        margin: 20px;
-        gap: 30px;
+@media (max-width: 480px){
+    .skill{
+        margin: 20px 50px;
     }
-
-    .skill-title h1 {
-        font-size: 36px;
-        padding: 0 10px;
+    .skill-title h1{
+        font-size: 40px;
+        padding: 0;
     }
-
-    .skill-format {
-        padding: 30px;
+    .skill-title img{
+         width: 130px;
+        margin-right: -20px;
     }
-
-    .skill-format p {
-        font-size: 16px;
+    .skill-format{
+        padding: 40px;
+        gap: 10px;
     }
-
-    .skill-container h2 {
-        font-size: 22px;
+    .skill-format h2{
+        font-size: 34px;
+    }
+    .skill-format p{
+        font-size: 25px;
+        line-height: 28px;
+        width: 180px;
+    }
+    .skill-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
     }
 }
