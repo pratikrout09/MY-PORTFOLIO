@@ -153,41 +153,49 @@
 }
 
 @media (max-width: 480px) {
-    .contact{
-        margin: 20px 50px;
+   .contact {
+        margin: 20px 30px;
+        gap: 40px;
     }
     .contact-title h1{
-        font-size: 40px;
+        font-size: 34px;
         padding: 0;
     }
     .contact-title img{
-        width: 130px;
-        margin-right: -20px;
+        width: 100px;
+        right: -10px;
     }
     .contact-left h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     .contact-left p{
-        font-size: 25px;
-        width: 600px;    
+        font-size: 16px;
+        width: 100%;
+        line-height: 28px;   
     }
     .contact-detail p{
-        font-size: 25px;
+        font-size: 16px;
+    }
+    .contact-detail img{
+        width: 20px;
     }
     .contact-right label{
-        font-size: 25px;
+        font-size: 16px;
     }
     .contact-right input{
         width: 100%;
         font-size: 25px;
+        font-size: 16px;
+        height: 60px;
     }
     .contact-right textarea{
-        width: 95%;
-        font-size: 25px;
+         width: 100%;
+        font-size: 16px;
+        padding: 15px;
     }
     .contact-submit{
-        font-size: 25px;
-        padding: 20px 60px;
+        font-size: 18px;
+        padding: 15px 40px;
     }
 }
     

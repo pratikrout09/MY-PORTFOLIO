@@ -101,58 +101,73 @@
 }
 
 @media (max-width: 480px) {
-    .footer{
-        margin: 20px 50px;
+   .footer {
+        margin: 20px 30px;
+        gap: 40px;
     }
-    .footer-top{
+
+    .footer-logo h1 {
+        font-size: 30px;
+        font-weight: 900;
+        padding: 0;
+    }
+
+    .footer-top {
         flex-direction: column;
-        gap: 30px;
-        width: 300px;
-    }
-    .footer-top-left p{
-         width: 600px; 
-        font-size: 20px;     
-    }
-    .footer-top-right{
-        flex-direction: row;
-        gap: 30px;
-        width: 600px;
-    }
-    .footer-email-input{
-        width: 100%;
-        padding: 20px 10px;
-    }
-    .footer hr{
-        width: 600px;
-    }
-    .footer-bottom{
-        flex-direction: column-reverse;
-        gap: 2px;
-        width: 300px;
-    }
-    .footer-bottom-right{
-        flex-direction: row;
         gap: 20px;
-        width: 600px;
-    }   
-    .footer-bottom-right p{
-        font-size: 20px;
-        width: 500px;
+        width: 100%;
     }
-    .footer-bottom-left{
-        font-size: 25px;
-        width: 600px;
-        margin-bottom: 20px;
+
+    .footer-top-left p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
     }
-    .footer-logo h1{
-     font-size: 40px;
-    font-weight: 900;
-     padding:10px 0px;
-    background:linear-gradient(267deg, #DA7C25 10%, #B923E1 100%) ;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'outfit';
+
+    .footer-top-right {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .footer-email-input {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .footer-email-input input {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .footer-subscribe {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer-bottom-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-bottom-left {
+        font-size: 16px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .footer hr {
+        width: 100%;
     }
 }
     

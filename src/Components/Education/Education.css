@@ -106,31 +106,35 @@
 
 @media (max-width: 480px){
     .education{
-        margin: 20px 50px;
+         margin: 20px 30px;
+        gap: 50px;
     }
     .education-title h1{
-        font-size: 40px;
+        font-size: 32px;
         padding: 0;
     }
     .education-title img{
-        width: 130px;
-        margin-right: -20px;
+        width: 100px;
+        margin-right: -10px;
     }
     .education-format{
-        padding: 40px;
-        gap: 10px;
+        padding: 25px;
+        gap: 15px;
     }
     .education-format h2{
-        font-size: 34px;
+        font-size: 26px;
     }
     .education-format p{
-        font-size: 25px;
-        line-height: 28px;
-        width: 180px;
+        font-size: 18px;
+        line-height: 26px;
+        max-width:100%;
     }
     .education-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+    .education-more img {
+        width: 18px;
     }
 }
     
