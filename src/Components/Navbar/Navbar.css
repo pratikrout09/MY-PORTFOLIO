@@ -116,7 +116,6 @@
     }
     .nav-mob-close {
      display: block; 
-    position: fixed;     /* Fixed for visibility */
     top: 15px;
     right: 15px;
     width: 28px;
