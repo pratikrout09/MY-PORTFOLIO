@@ -126,6 +126,7 @@
     .nav-menu{
         width: 100%;
         padding: 60px 20px;
+        right: -100%;
     }
     .nav-logo h1{
         font-size: 25px;
