@@ -103,10 +103,15 @@
         margin: 20px 50px;
     }
     .nav-menu{
-        width: 350px;
+        width: 200px;
+    }
+    .nav-menu li{
+        font-size: 18px;
+        padding-left: 50px;
+        gap: 10px;
     }
     .nav-logo h1{
-        font-size: 40px;
+        font-size: 25px;
     font-weight: 900;
      padding:10px 0px;
     background:linear-gradient(267deg, #DA7C25 10%, #B923E1 100%) ;
@@ -115,4 +120,14 @@
     -webkit-text-fill-color: transparent;
     font-family: 'outfit';
     } 
+    .nav-mob-close{
+        width: 18px;
+        top: 20px;
+        left: 160px;
+    }
+    .nav-mob-open{
+        width: 20px;
+        
+    }
+
 } 
