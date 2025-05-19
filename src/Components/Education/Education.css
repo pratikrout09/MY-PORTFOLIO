@@ -110,10 +110,8 @@
         gap: 50px;
     }
     .education-title h1{
-       font-size: 36px;
+        font-size: 32px;
         padding: 0;
-        text-align: center;
-        margin-top: 2px;
     }
     .education-title img{
         width: 100px;
@@ -124,26 +122,19 @@
         gap: 15px;
     }
     .education-format h2{
-        font-size: 20px;
-    }
-    .education-format h3{
-        font-size: 16px;
+        font-size: 26px;
     }
     .education-format p{
-        font-size: 15px;
+        font-size: 18px;
         line-height: 26px;
         max-width:100%;
     }
     .education-container{
-        grid-template-columns: 1fr 1fr ;
-        gap: 20px;
-    }
-    .education-more{
-        gap: 10px;
-        margin-top: 5px;
+        grid-template-columns: 1fr ;
+        gap: 30px;
     }
     .education-more img {
-        width: 15px;
+        width: 18px;
     }
 }
     
