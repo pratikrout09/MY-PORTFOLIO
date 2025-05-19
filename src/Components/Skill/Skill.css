@@ -132,11 +132,11 @@
     .skill-format p {
         font-size: 14px;
         line-height: 26px;
-        max-width:100%; /* 👈 Make responsive */
+        max-width:90%; /* 👈 Make responsive */
     }
 
     .skill-container {
         grid-template-columns: 1fr 1fr; /* 👈 Single column layout */
-        gap: 20px;
+        gap: 15px;
     }
 }
