@@ -121,22 +121,22 @@
     }
 
     .skill-format {
-        padding: 30px;
-        gap: 12px;
+        padding: 25px;
+        gap: 15px;
     }
 
     .skill-format h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .skill-format p {
-        font-size: 16px;
-        line-height: 24px;
-        width: 100%; /* 👈 Make responsive */
+        font-size: 14px;
+        line-height: 26px;
+        max-width:100%; /* 👈 Make responsive */
     }
 
     .skill-container {
-        grid-template-columns: 1fr; /* 👈 Single column layout */
-        gap: 30px;
+        grid-template-columns: 1fr 1fr; /* 👈 Single column layout */
+        gap: 20px;
     }
 }

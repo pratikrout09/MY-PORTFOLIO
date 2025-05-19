@@ -100,8 +100,8 @@
         right: -10px;
     }
     .project-container{
-        grid-template-columns: 1fr;
-        gap: 30px
+        grid-template-columns: 1fr 1fr;
+        gap: 20px
     }
     .project-container img{
         width: 100%; /* 👈 Fully responsive */
@@ -109,9 +109,12 @@
         border-radius: 10px;
     }
     .project-more{
-        padding: 18px 30px;
-        font-size: 20px;
-        margin: 40px auto;
+        padding: 18px 25px;
+        font-size: 18px;
+        margin: 5px auto;
         gap: 10px;
+    }
+    .project-more img{
+        width: 20px;
     }
 }

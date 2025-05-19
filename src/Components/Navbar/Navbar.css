@@ -104,6 +104,10 @@
     }
     .nav-menu{
         width: 200px;
+        height: 380px
+    }
+    .nav-menu p:hover{
+        color: #DA7C25;
     }
     .nav-menu li{
         font-size: 18px;
@@ -111,7 +115,7 @@
         gap: 10px;
     }
     .nav-logo h1{
-        font-size: 25px;
+        font-size: 24px;
     font-weight: 900;
      padding:10px 0px;
     background:linear-gradient(267deg, #DA7C25 10%, #B923E1 100%) ;
@@ -122,8 +126,8 @@
     } 
     .nav-mob-close{
         width: 18px;
-        top: 20px;
-        left: 160px;
+        top: 35px;
+        left: 154px;
     }
     .nav-mob-open{
         width: 20px;

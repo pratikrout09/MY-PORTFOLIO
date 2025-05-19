@@ -9,11 +9,11 @@ const Project_data =[
         p_name:"Tic Tac Toe",
         p_img:Tic_Tac_Toe
     },
-    {
-        p_no:2,
-        p_name:"Calculator",
-        p_img:Calculator
-    },
+    // {
+    //     p_no:2,
+    //     p_name:"Calculator",
+    //     p_img:Calculator
+    // },
     {
         p_no:3,
         p_name:"Currency Converter",

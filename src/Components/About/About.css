@@ -157,22 +157,27 @@
         width: 100px;
         /* right: -20px; */
         right: 0px;
+        margin-top: 5px;
      }
      .about-title h1{
         font-size: 36px;
         padding: 0;
         text-align: center;
+        margin-top: 2px;
         }
         .about-para {
             width: 100%;
         font-size: 16px;
-        line-height: 28px;
-        /* margin-top: 10px; */
+        line-height: 25px;
+        margin-top: 2px;
         text-align: center;
         }
         .about-skill{
-            flex-direction: column;
-            gap: 10px;
+            margin-top: 2px;
+            margin-left: 20px;
+            flex-direction: row;
+            justify-content: start;
+            gap: 15px;
             align-items: center;
         }
         .about-skill p{
@@ -192,12 +197,14 @@
             font-size: 16px
         }
         .about-achievements{
-            flex-direction: column;
-            gap: 30px;
+            flex-direction: row;
+            gap: 20px;
             align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
         }
-        /* .about-achievement{
+        .about-achievement{
             gap: 10px;
-        }   */
+        }
 }
     
