@@ -125,13 +125,13 @@
     }
 
     .footer-top-right {
-        flex-direction: row;
+        flex-direction:column;
         width: 100%;
         gap: 20px;
     }
 
     .footer-email-input {
-        width: 50%;
+        width: 100%;
         padding: 15px 30px;
     }
 
@@ -153,19 +153,18 @@
 
     .footer-bottom-right {
         flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
+        justify-content: space-around;
+        gap: 30px;
         width: 100%;
     }
 
     .footer-bottom-left {
-        font-size: 16px;
+        font-size: 13px;
         width: 100%;
     }
 
     .footer-bottom-right p {
         font-size: 15px;
-        margin: 0;
     }
 
     .footer hr {
