@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div id="home" className="hero">
       <img src={profile_img} alt="" />
-      <h1><span>I'm Pratik Rout,</span> Frontend Developer In India.</h1>
+      <h1><span>I'm Pratik Rout,</span> Frontend Developer In India</h1>
       <p>
         I'm a skilled Web Developer.My passion lies in creating captivating
         website designs and implementing them through Frontend Development.I
